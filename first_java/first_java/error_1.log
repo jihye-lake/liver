@@ -1,0 +1,11 @@
+1
+2
+3
+5
+=========================================
+예외발생 시간 : Mon Jul 08 11:38:20 KST 2019
+java.lang.ArithmeticException: / by zero
+	at java_0708.FileException_1.main(FileException_1.java:24)
+에외메시지 : / by zero
+=========================================
+6
