@@ -4,53 +4,53 @@ package first_java;
 
 public class Sample_1 {
 	
-	double x;  //  ¸â¹ö º¯¼ö
-	double y;  //  ¸â¹ö º¯¼ö
+	double x;  //  ë©¤ë²„ ë³€ìˆ˜
+	double y;  //  ë©¤ë²„ ë³€ìˆ˜
 	
-	public Sample_1(double a, double b) {  //  »ı¼ºÀÚ(»ı¼ºÀÚ´Â ¸®ÅÏ Å¸ÀÔÀÌ ¾øÀ½ ÀÌ°ÍÀÌ ¸Ş¼Òµå¿Í »ı¼ºÀÚ¸¦ ±¸º°ÇÏ´Â ¹ı)
-										   //  »ı¼ºÀÚ´Â Å¬·¡½º ÀÌ¸§°ú °°´Ù.
+	public Sample_1(double a, double b) {  //  ìƒì„±ì(ìƒì„±ìëŠ” ë¦¬í„´ íƒ€ì…ì´ ì—†ìŒ ì´ê²ƒì´ ë©”ì†Œë“œì™€ ìƒì„±ìë¥¼ êµ¬ë³„í•˜ëŠ” ë²•)
+										   //  ìƒì„±ìëŠ” í´ë˜ìŠ¤ ì´ë¦„ê³¼ ê°™ë‹¤.
 		
 		x = a;
 		y = b;
 	}
 	
-	public double add()  //  ¸â¹ö ¸Ş¼Òµå
+	public double add()  //  ë©¤ë²„ ë©”ì†Œë“œ
 	{
 		return (x + y);
 	}
 	
-	public double sub()  //  ¸â¹ö ¸Ş¼Òµå
+	public double sub()  //  ë©¤ë²„ ë©”ì†Œë“œ
 	{
 		return (x - y);
 	}
 	
-	public double mul()  //  ¸â¹ö ¸Ş¼Òµå
+	public double mul()  //  ë©¤ë²„ ë©”ì†Œë“œ
 	{
 		return (x * y);
 	}
 	
-	public double div()  //  ¸â¹ö ¸Ş¼Òµå
+	public double div()  //  ë©¤ë²„ ë©”ì†Œë“œ
 	{
 		return (x / y);
 	}
 	
-	public double mod()  //  ¸â¹ö ¸Ş¼Òµå
+	public double mod()  //  ë©¤ë²„ ë©”ì†Œë“œ
 	{
 		return (int)(x % y);
 	}
 	
 	
 	
-	public static void main(String[] args) {  //  ¸â¹ö ¸Ş¼Òµå (main ÀÖ´Â °÷ÀÌ ÁüÀÔÁ¡)
+	public static void main(String[] args) {  //  ë©¤ë²„ ë©”ì†Œë“œ (main ìˆëŠ” ê³³ì´ ì§ì…ì )
 		
-		Sample_1 sample = new Sample_1(45.67,13.5);  //  »ı¼ºÀÚ ÃÊ±âÈ­
-     // Å¬·¡½º  °´Ã¼ÂüÁ¶º¯¼ö      »ı¼ºÀÚ È£Ãâ(ÀÌ °ªÀ» °¡Áö°í µé¾î°¡¶ó´Â ¶æÀÌ´Ù) °´Ã¼´Â Heap °ø°£¿¡ ¸¸µé¾îÁø´Ù.
+		Sample_1 sample = new Sample_1(45.67,13.5);  //  ìƒì„±ì ì´ˆê¸°í™”
+     // í´ë˜ìŠ¤  ê°ì²´ì°¸ì¡°ë³€ìˆ˜      ìƒì„±ì í˜¸ì¶œ(ì´ ê°’ì„ ê°€ì§€ê³  ë“¤ì–´ê°€ë¼ëŠ” ëœ»ì´ë‹¤) ê°ì²´ëŠ” Heap ê³µê°„ì— ë§Œë“¤ì–´ì§„ë‹¤.
 		
-		System.out.println("´õÇÏ±â : " + sample.add());
-		System.out.println("»©  ±â : " + sample.sub());
-		System.out.println("°öÇÏ±â : " + sample.mul());
-		System.out.println("³ª´©±â : " + sample.div());
-		System.out.println("³ª¸ÓÁö : " + sample.mod());
+		System.out.println("ë”í•˜ê¸° : " + sample.add());
+		System.out.println("ë¹¼  ê¸° : " + sample.sub());
+		System.out.println("ê³±í•˜ê¸° : " + sample.mul());
+		System.out.println("ë‚˜ëˆ„ê¸° : " + sample.div());
+		System.out.println("ë‚˜ë¨¸ì§€ : " + sample.mod());
 		
 	}
 

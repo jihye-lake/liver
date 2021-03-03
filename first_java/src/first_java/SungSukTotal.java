@@ -1,7 +1,7 @@
 package first_java;
 
-class Grade  		//  class´Â À§Ä¡¿¡ ±¸¾Ö¹ŞÁö ¾Ê´Â´Ù(¸Ç ¹ØÀ¸·Î °¡µç À§·Î °¡µç, ½ÉÁö¾î´Â ´Ù¸¥ Å¬·¡½º¿¡ ¸¸µé¾îµµ »ó°üÀÌ ¾ø´Ù)
-{						//  ÆÛºí¸¯Àº ´Ù¸¥ java ¹®¼­¸¦ ¸¸µé¾úÀ» ¶§´Â ¾²µÇ, ¿©±â¼­´Â ¾²Áö ¾Ê±â. Áßº¹ÀÌ µÊ. * Å¬·¡½º´Â ÇÏ³ª¸¸ ÀÖ´Â °Ô ÁÁ´Ù ¿©±â¼­´Â ¼³¸íÀ» À§ÇØ °°ÀÌ µÒ*
+class Grade  		//  classëŠ” ìœ„ì¹˜ì— êµ¬ì• ë°›ì§€ ì•ŠëŠ”ë‹¤(ë§¨ ë°‘ìœ¼ë¡œ ê°€ë“  ìœ„ë¡œ ê°€ë“ , ì‹¬ì§€ì–´ëŠ” ë‹¤ë¥¸ í´ë˜ìŠ¤ì— ë§Œë“¤ì–´ë„ ìƒê´€ì´ ì—†ë‹¤)
+{						//  í¼ë¸”ë¦­ì€ ë‹¤ë¥¸ java ë¬¸ì„œë¥¼ ë§Œë“¤ì—ˆì„ ë•ŒëŠ” ì“°ë˜, ì—¬ê¸°ì„œëŠ” ì“°ì§€ ì•Šê¸°. ì¤‘ë³µì´ ë¨. * í´ë˜ìŠ¤ëŠ” í•˜ë‚˜ë§Œ ìˆëŠ” ê²Œ ì¢‹ë‹¤ ì—¬ê¸°ì„œëŠ” ì„¤ëª…ì„ ìœ„í•´ ê°™ì´ ë‘ *
 	int kor = 66;
 	int eng = 77;
 	int math = 88;
@@ -9,7 +9,7 @@ class Grade  		//  class´Â À§Ä¡¿¡ ±¸¾Ö¹ŞÁö ¾Ê´Â´Ù(¸Ç ¹ØÀ¸·Î °¡µç À§·Î °¡µç, ½ÉÁö
 
 public class SungSukTotal{
 	
-	public static void main(String[] args) {   //  main ÀÌ ÀÖ´Â  class ¸íÀ¸·Î ÀúÀåÇØ¾ß ½ÇÇàÀÌ µÊ.
+	public static void main(String[] args) {   //  main ì´ ìˆëŠ”  class ëª…ìœ¼ë¡œ ì €ì¥í•´ì•¼ ì‹¤í–‰ì´ ë¨.
 		
 		int total1, total2, total3;
 		double avg;
@@ -22,14 +22,14 @@ public class SungSukTotal{
 		grade2.eng	= 55;
 		
 		total1	= grade1.kor + grade2.eng + grade1.math;
-		total2	= grade2.kor + grade2.eng + grade2.math;   //   total 1, 2, 3 Àº ¶È°°Àº °ªÀ» ÂüÁ¶ÇÏ°í ÀÖ±â ¶§¹®¿¡ ÃÑÁ¡µµ ÆòÁ¡µµ °°°Ô ³ª¿È.
+		total2	= grade2.kor + grade2.eng + grade2.math;   //   total 1, 2, 3 ì€ ë˜‘ê°™ì€ ê°’ì„ ì°¸ì¡°í•˜ê³  ìˆê¸° ë•Œë¬¸ì— ì´ì ë„ í‰ì ë„ ê°™ê²Œ ë‚˜ì˜´.
 		total3	= grade2.kor + grade2.eng + grade1.math;
 		avg = total1 / 3.0; 
 	
-		System.out.println(" ÃÑ Á¡ : " + total1);
-		System.out.println(" ÃÑ Á¡ : " + total2);
-		System.out.println(" ÃÑ Á¡ : " + total3);
-		System.out.println(" Æò ±Õ : " + avg);
+		System.out.println(" ì´ ì  : " + total1);
+		System.out.println(" ì´ ì  : " + total2);
+		System.out.println(" ì´ ì  : " + total3);
+		System.out.println(" í‰ ê·  : " + avg);
 		
 		
 	}

@@ -7,7 +7,7 @@ class Car
 	int		door;
 	String Maker;
 		
-	public Car() {    //  default »ı¼ºÀÚ / ¿©·¯°³ÀÇ »ı¼ºÀÚ => »ı¼ºÀÚÀÇ OverLoading! 3°³ Â¥¸®µµ Á¸ÀçÇÏ°í, 4°³ Â¥¸®µµ Á¸Àç ÇÔ
+	public Car() {    //  default ìƒì„±ì / ì—¬ëŸ¬ê°œì˜ ìƒì„±ì => ìƒì„±ìì˜ OverLoading! 3ê°œ ì§œë¦¬ë„ ì¡´ì¬í•˜ê³ , 4ê°œ ì§œë¦¬ë„ ì¡´ì¬ í•¨
 	}
 	
 	public Car(String c , String g , int d)
@@ -35,7 +35,7 @@ public class CarTest_2 {
 		
 		Car cc1 = new Car();
 		
-		cc1.Color			= "white";    //  default »ı¼ºÀÚ¸¦ ¸¸µé°íÀÚ ÇÑ´Ù¸é Àû¾îÁà¾ß ÇÔ
+		cc1.Color			= "white";    //  default ìƒì„±ìë¥¼ ë§Œë“¤ê³ ì í•œë‹¤ë©´ ì ì–´ì¤˜ì•¼ í•¨
 		cc1.gearType	= "AUTO";
 		cc1.door			= 3;
 		cc1.Maker		= "JH";
@@ -44,11 +44,11 @@ public class CarTest_2 {
 		Car cc2 = new Car("Black" , "STICK" ,8, "BMW");
 		Car cc3 = new Car("Green" , "STICK" ,4 ,"CH");
 		
-		System.out.println("cc1 ÀÇ Color : " + cc1.Color + "\ncc1 ÀÇ gear : " + cc1.gearType + "\ncc2 door : " + cc1.door + "\ncc1 Maker : " + cc1.Maker);
+		System.out.println("cc1 ì˜ Color : " + cc1.Color + "\ncc1 ì˜ gear : " + cc1.gearType + "\ncc2 door : " + cc1.door + "\ncc1 Maker : " + cc1.Maker);
 		
-		System.out.println("\ncc2 ÀÇ Color : " + cc2.Color + "\ncc2 ÀÇ gear : " + cc2.gearType + "\ncc2 door : " + cc2.door + "\ncc2 Maker : " + cc2.Maker);
+		System.out.println("\ncc2 ì˜ Color : " + cc2.Color + "\ncc2 ì˜ gear : " + cc2.gearType + "\ncc2 door : " + cc2.door + "\ncc2 Maker : " + cc2.Maker);
 		
-		System.out.println("\ncc3 ÀÇ Color : " + cc3.Color + "\ncc3 ÀÇ gear : " + cc3.gearType + "\ncc3 door : " + cc3.door + "\ncc3 Maker : " + cc3.Maker);
+		System.out.println("\ncc3 ì˜ Color : " + cc3.Color + "\ncc3 ì˜ gear : " + cc3.gearType + "\ncc3 door : " + cc3.door + "\ncc3 Maker : " + cc3.Maker);
 	}
 
 }

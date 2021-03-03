@@ -3,7 +3,7 @@ package java_0802;
 import java.util.ArrayList;
 import java.util.Collections;
 
-class Card {  // °³ÀÎ
+class Card {  // ê°œì¸
 	String suit;
 	String number;
 	
@@ -22,9 +22,9 @@ class Deck {
 	String[] suit = { "CLUB", "DIAMOND", "HEART", "SPADE" };
 	String[] number = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "D", "A"};
 	
-	// Ä«µå¸¦ »ı¼ºÇÏ¿© µ¦¿¡ ³Ö´Â´Ù.
+	// ì¹´ë“œë¥¼ ìƒì„±í•˜ì—¬ ë±ì— ë„£ëŠ”ë‹¤.
 	public Deck() {
-		// 52ÀåÀÇ Ä«µå¸¦ °¡Áö°í ÀÖ´Â µ¦À» ¸¸µç´Ù.
+		// 52ì¥ì˜ ì¹´ë“œë¥¼ ê°€ì§€ê³  ìˆëŠ” ë±ì„ ë§Œë“ ë‹¤.
 		for (int i = 0; i < suit.length; i++) {
 			for (int j = 0; j < number.length; j++) {
 				deck.add(new Card(suit[i], number[j]));
@@ -33,7 +33,7 @@ class Deck {
 		}
 	}
 			
-			// Ä«µå¸¦ ¼¯´Â´Ù.
+			// ì¹´ë“œë¥¼ ì„ëŠ”ë‹¤.
 			public void shuffle() {
 				Collections.shuffle(deck);
 			}

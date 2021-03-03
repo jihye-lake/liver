@@ -37,7 +37,7 @@ public class Radio {
 	
 			
 	public static void main(String[] args) {
-		Radio ORadio = new Radio();  //  new°¡ °´Ã¼¸¦ heap¿¡ »ı¼ºÇØ ÁØ´Ù
+		Radio ORadio = new Radio();  //  newê°€ ê°ì²´ë¥¼ heapì— ìƒì„±í•´ ì¤€ë‹¤
 		
 		ORadio.RPowerOnOff();
 		// ORadio.RPowerOnOff();
@@ -50,13 +50,13 @@ public class Radio {
 		
 		if(ORadio.RPower == true)
 		{
-			System.out.println("¶óµğ¿ÀÀÇ ºê·£µå : " +ORadio.RMaker+"\n¶óµğ¿ÀÀÇ ÄÃ   ·¯ : "+ORadio.RColor + "\n¶óµğ¿ÀÀÇ »çÀÌÁî : "
-					+ORadio.RSize+ "\n¶óµğ¿ÀÀÇ °¡   °İ : " +ORadio.RPrice+ "\n¶óµğ¿ÀÀÇ º¼   ·ı : " +ORadio.RVolume+"\n¶óµğ¿ÀÀÇ ÇöÃ¤³Î : " 
-					+ORadio.RChannel+ "\n¶óµğ¿ÀÀÇ Àü   ¿ø : " +ORadio.RPower);
+			System.out.println("ë¼ë””ì˜¤ì˜ ë¸Œëœë“œ : " +ORadio.RMaker+"\në¼ë””ì˜¤ì˜ ì»¬   ëŸ¬ : "+ORadio.RColor + "\në¼ë””ì˜¤ì˜ ì‚¬ì´ì¦ˆ : "
+					+ORadio.RSize+ "\në¼ë””ì˜¤ì˜ ê°€   ê²© : " +ORadio.RPrice+ "\në¼ë””ì˜¤ì˜ ë³¼   ë¥¨ : " +ORadio.RVolume+"\në¼ë””ì˜¤ì˜ í˜„ì±„ë„ : " 
+					+ORadio.RChannel+ "\në¼ë””ì˜¤ì˜ ì „   ì› : " +ORadio.RPower);
 		}
 		
 		else
-			System.out.println("¶óµğ¿ÀÀÇ Àü¿øÀÌ ²¨Á®ÀÖ½À´Ï´Ù. ¿ŞÂÊ »ó´ÜÀÇ ¹öÆ°À» ´­·¯ Àü¿øÀ» ÄÑÁÖ½Ê½Ã¿À.");
+			System.out.println("ë¼ë””ì˜¤ì˜ ì „ì›ì´ êº¼ì ¸ìˆìŠµë‹ˆë‹¤. ì™¼ìª½ ìƒë‹¨ì˜ ë²„íŠ¼ì„ ëˆŒëŸ¬ ì „ì›ì„ ì¼œì£¼ì‹­ì‹œì˜¤.");
 		
 	}
 

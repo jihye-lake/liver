@@ -2,52 +2,52 @@ package first_java;
 
 public class MyTv {
 	
-	String tvType = "red";			//  ¸â¹ö º¯¼ö
-	int tvSize = 30;					//  ¸â¹ö º¯¼ö
-	boolean tvPower = false;	//  ¸â¹ö º¯¼ö
-	int tvVolume = 10;				//  ¸â¹ö º¯¼ö
-	int tvChannel = 9;				//  ¸â¹ö º¯¼ö
-	String tvMaker = "JH";		//  ¸â¹ö º¯¼ö
+	String tvType = "red";			//  ë©¤ë²„ ë³€ìˆ˜
+	int tvSize = 30;					//  ë©¤ë²„ ë³€ìˆ˜
+	boolean tvPower = false;	//  ë©¤ë²„ ë³€ìˆ˜
+	int tvVolume = 10;				//  ë©¤ë²„ ë³€ìˆ˜
+	int tvChannel = 9;				//  ë©¤ë²„ ë³€ìˆ˜
+	String tvMaker = "JH";		//  ë©¤ë²„ ë³€ìˆ˜
 	
-	public MyTv() { 					 // default »ı¼ºÀÚ
+	public MyTv() { 					 // default ìƒì„±ì
 		
 	}
 	
-	public void powerOn()			//  ¸â¹ö ¸Ş¼Òµå
+	public void powerOn()			//  ë©¤ë²„ ë©”ì†Œë“œ
 	{
 		tvPower = true;
 	}
 	
-	public void powerOff()			//  ¸â¹ö ¸Ş¼Òµå
+	public void powerOff()			//  ë©¤ë²„ ë©”ì†Œë“œ
 	{
 		tvPower = false;
 	}
 	
-	/* Power on off ¸¦ ÇÏ³ªÀÇ Å°·Î ¸¸µé·Á¸é?
+	/* Power on off ë¥¼ í•˜ë‚˜ì˜ í‚¤ë¡œ ë§Œë“¤ë ¤ë©´?
 	 * public void PowerOnOff()
 	 * {
 	 * 	  tvPower = !tvPower;
 	 * }
 	 * 
-	 * ÀÌ·¸°Ô ÇØÁÖ¸é ÇÑ ¹ø ³ÖÀ¸¸é ÄÑÁö°í, µÎ ¹ø ´©¸£¸é ²¨Áö´Â ¼³Á¤ÀÌ °¡´ÉÇÔ => ÀÌ°ÍÀ» Åä±ÛÅ°¶ó°í ºÎ¸¥´Ù.
+	 * ì´ë ‡ê²Œ í•´ì£¼ë©´ í•œ ë²ˆ ë„£ìœ¼ë©´ ì¼œì§€ê³ , ë‘ ë²ˆ ëˆ„ë¥´ë©´ êº¼ì§€ëŠ” ì„¤ì •ì´ ê°€ëŠ¥í•¨ => ì´ê²ƒì„ í† ê¸€í‚¤ë¼ê³  ë¶€ë¥¸ë‹¤.
 	 */
 	
-	public void channelUp()		//  ¸â¹ö ¸Ş¼Òµå
+	public void channelUp()		//  ë©¤ë²„ ë©”ì†Œë“œ
 	{
 		tvChannel ++;
 	}
 	
-	public void channelDown()	//  ¸â¹ö ¸Ş¼Òµå
+	public void channelDown()	//  ë©¤ë²„ ë©”ì†Œë“œ
 	{
 		tvChannel --;
 	}
 	
-	public void volumeUp()		//  ¸â¹ö ¸Ş¼Òµå
+	public void volumeUp()		//  ë©¤ë²„ ë©”ì†Œë“œ
 	{
 		tvVolume ++;
 	}
 	
-	public void volumeDown()	//  ¸â¹ö ¸Ş¼Òµå
+	public void volumeDown()	//  ë©¤ë²„ ë©”ì†Œë“œ
 	{
 		tvVolume --;
 	}
@@ -56,7 +56,7 @@ public class MyTv {
 
 	public static void main(String[] args) {
 		
-		MyTv  myTV = new MyTv();	 // myTV => °´Ã¼ ÂüÁ¶ º¯¼ö
+		MyTv  myTV = new MyTv();	 // myTV => ê°ì²´ ì°¸ì¡° ë³€ìˆ˜
 		
 		myTV.tvMaker = "CH";
 		myTV.powerOn();
@@ -74,7 +74,7 @@ public class MyTv {
 		}
 		
 		else
-			System.out.println("TV ´Â ²¨Á³½À´Ï´Ù.");  //   TV Àü¿øÀ» false ·Î ¼³Á¤ÇÏ¸é(Off) ²¨Á³´Ù°í¸¸ ³ª¿È.
+			System.out.println("TV ëŠ” êº¼ì¡ŒìŠµë‹ˆë‹¤.");  //   TV ì „ì›ì„ false ë¡œ ì„¤ì •í•˜ë©´(Off) êº¼ì¡Œë‹¤ê³ ë§Œ ë‚˜ì˜´.
 	}
 
 }

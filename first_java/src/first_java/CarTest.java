@@ -2,18 +2,18 @@ package first_java;
 
 public class CarTest {
 	
-	public int door = 4;  // ¸â¹ö º¯¼ö
-	public String gear = "AUTO";  // ¸â¹ö º¯¼ö
-	public int speed = 60; // ¸â¹ö º¯¼ö
+	public int door = 4;  // ë©¤ë²„ ë³€ìˆ˜
+	public String gear = "AUTO";  // ë©¤ë²„ ë³€ìˆ˜
+	public int speed = 60; // ë©¤ë²„ ë³€ìˆ˜
 	
-	public void speedUp()  // ¸â¹ö ¸Ş¼Òµå
+	public void speedUp()  // ë©¤ë²„ ë©”ì†Œë“œ
 	{
-		speed++;  //  5¾¿ ¿Ã¸®°í ½ÍÀ¸¸é speed += 5;
+		speed++;  //  5ì”© ì˜¬ë¦¬ê³  ì‹¶ìœ¼ë©´ speed += 5;
 	}
 	
-	public void speedDown() // ¸â¹ö ¸Ş¼Òµå
+	public void speedDown() // ë©¤ë²„ ë©”ì†Œë“œ
 	{
-		speed--;  //  3¾¿ ³»¸®°í ½ÍÀ¸¸é speed -= 3;
+		speed--;  //  3ì”© ë‚´ë¦¬ê³  ì‹¶ìœ¼ë©´ speed -= 3;
 	}
 	
 	
@@ -21,9 +21,9 @@ public class CarTest {
 	public static void main(String[] args) {
 		
 		CarTest superCar = new CarTest();
-		   //  superCar °´Ã¼ »ı¼º
+		   //  superCar ê°ì²´ ìƒì„±
 		
-		System.out.println("\n½´ÆÛÄ«ÀÇ door : " +superCar.door+ "\n½´ÆÛÄ«ÀÇ ±â¾î : " +superCar.gear+ "\n½´ÆÛÄ«ÀÇ ¼Óµµ : " +superCar.speed+ "km/h");
+		System.out.println("\nìŠˆí¼ì¹´ì˜ door : " +superCar.door+ "\nìŠˆí¼ì¹´ì˜ ê¸°ì–´ : " +superCar.gear+ "\nìŠˆí¼ì¹´ì˜ ì†ë„ : " +superCar.speed+ "km/h");
 		
 		superCar.door = 7;
 		superCar.speedUp();
@@ -34,7 +34,7 @@ public class CarTest {
 		superCar.speedDown();
 		
 		
-		System.out.println("\n½´ÆÛÄ«ÀÇ door : " +superCar.door+ "\n½´ÆÛÄ«ÀÇ ±â¾î : " +superCar.gear+ "\n½´ÆÛÄ«ÀÇ ¼Óµµ : " +superCar.speed+ "km/h");
+		System.out.println("\nìŠˆí¼ì¹´ì˜ door : " +superCar.door+ "\nìŠˆí¼ì¹´ì˜ ê¸°ì–´ : " +superCar.gear+ "\nìŠˆí¼ì¹´ì˜ ì†ë„ : " +superCar.speed+ "km/h");
 		
 	}
 

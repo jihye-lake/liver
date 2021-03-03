@@ -19,13 +19,13 @@ public class MyTVTest {
 		tvPower = false;
 	}
 	
-	/* Power on off ¸¦ ÇÏ³ªÀÇ Å°·Î ¸¸µé·Á¸é?
+	/* Power on off ë¥¼ í•˜ë‚˜ì˜ í‚¤ë¡œ ë§Œë“¤ë ¤ë©´?
 	 * public void PowerOnOff()
 	 * {
 	 * 	  tvPower = !tvPower;
 	 * }
 	 * 
-	 * ÀÌ·¸°Ô ÇØÁÖ¸é ÇÑ ¹ø ³ÖÀ¸¸é ÄÑÁö°í, µÎ ¹ø ´©¸£¸é ²¨Áö´Â ¼³Á¤ÀÌ °¡´ÉÇÔ => ÀÌ°ÍÀ» Åä±ÛÅ°¶ó°í ºÎ¸¥´Ù.
+	 * ì´ë ‡ê²Œ í•´ì£¼ë©´ í•œ ë²ˆ ë„£ìœ¼ë©´ ì¼œì§€ê³ , ë‘ ë²ˆ ëˆ„ë¥´ë©´ êº¼ì§€ëŠ” ì„¤ì •ì´ ê°€ëŠ¥í•¨ => ì´ê²ƒì„ í† ê¸€í‚¤ë¼ê³  ë¶€ë¥¸ë‹¤.
 	 */
 	
 	public void volumeUp() 
@@ -50,7 +50,7 @@ public class MyTVTest {
 	
 	public static void main(String[] args) {
 		
-		MyTVTest BestTV = new MyTVTest();  // new°¡ »ı¼ºÀÚ¸¦ ¸¸µéµµ·Ï µµ¿ÍÁØ´Ù.
+		MyTVTest BestTV = new MyTVTest();  // newê°€ ìƒì„±ìë¥¼ ë§Œë“¤ë„ë¡ ë„ì™€ì¤€ë‹¤.
 		
 		BestTV.tvPowerOn();
 		BestTV.tvChannelUp();
@@ -61,17 +61,17 @@ public class MyTVTest {
 		
 		if(BestTV.tvPower == true)
 			{
-			System.out.println("º£½ºÆ® Æ¼ºñÀÇ ºê·£µå	: " +BestTV.tvCompany+ "\nºê·£µå´Â "+BestTV.tvCompany+" ÀÔ´Ï´Ù. °í°´¼¾ÅÍ ¹øÈ£´Â XXX-XXXX-XXXX ÀÔ´Ï´Ù."+
-			"\n\nº£½ºÆ® Æ¼ºñÀÇ ÄÃ   ·¯	: " +BestTV.tvColor+ "\n»ö»óÀº " + BestTV.tvColor + " ÀÔ´Ï´Ù." + 
-			"\n\nº£½ºÆ® Æ¼ºñÀÇ »çÀÌÁî	: " +BestTV.tvSize+ "\n»çÀÌÁî´Â " +BestTV.tvSize+ " inchÀÔ´Ï´Ù." + 
-					"\n\nº£½ºÆ® Æ¼ºñÀÇ Àü   ¿ø	: " +BestTV.tvPower+ "\nÀü¿øÀº " +BestTV.tvPower+ " »óÅÂÀÔ´Ï´Ù." +
-				"\n\nº£½ºÆ® Æ¼ºñÀÇ º¼   ·ı	: " +BestTV.tvVolume+ "\nº¼·ıÀº " +BestTV.tvVolume+ " ÀÔ´Ï´Ù. °í¸·À» Á¶½ÉÇÏ¼¼¿ä." + 
+			System.out.println("ë² ìŠ¤íŠ¸ í‹°ë¹„ì˜ ë¸Œëœë“œ	: " +BestTV.tvCompany+ "\në¸Œëœë“œëŠ” "+BestTV.tvCompany+" ì…ë‹ˆë‹¤. ê³ ê°ì„¼í„° ë²ˆí˜¸ëŠ” XXX-XXXX-XXXX ì…ë‹ˆë‹¤."+
+			"\n\në² ìŠ¤íŠ¸ í‹°ë¹„ì˜ ì»¬   ëŸ¬	: " +BestTV.tvColor+ "\nìƒ‰ìƒì€ " + BestTV.tvColor + " ì…ë‹ˆë‹¤." + 
+			"\n\në² ìŠ¤íŠ¸ í‹°ë¹„ì˜ ì‚¬ì´ì¦ˆ	: " +BestTV.tvSize+ "\nì‚¬ì´ì¦ˆëŠ” " +BestTV.tvSize+ " inchì…ë‹ˆë‹¤." + 
+					"\n\në² ìŠ¤íŠ¸ í‹°ë¹„ì˜ ì „   ì›	: " +BestTV.tvPower+ "\nì „ì›ì€ " +BestTV.tvPower+ " ìƒíƒœì…ë‹ˆë‹¤." +
+				"\n\në² ìŠ¤íŠ¸ í‹°ë¹„ì˜ ë³¼   ë¥¨	: " +BestTV.tvVolume+ "\në³¼ë¥¨ì€ " +BestTV.tvVolume+ " ì…ë‹ˆë‹¤. ê³ ë§‰ì„ ì¡°ì‹¬í•˜ì„¸ìš”." + 
 					
-					"\n\nº£½ºÆ® Æ¼ºñÀÇ Ã¤   ³Î	: " +BestTV.tvChannel+ "\nÇöÀç Ã¤³ÎÀº " +BestTV.tvChannel+ " ¹ø ÀÔ´Ï´Ù. 5ºĞ µÚ, ¿¹¾à ÇÁ·Î±×·¥ÀÌ 8¹ø¿¡¼­ ½ÃÀÛµË´Ï´Ù.");
+					"\n\në² ìŠ¤íŠ¸ í‹°ë¹„ì˜ ì±„   ë„	: " +BestTV.tvChannel+ "\ní˜„ì¬ ì±„ë„ì€ " +BestTV.tvChannel+ " ë²ˆ ì…ë‹ˆë‹¤. 5ë¶„ ë’¤, ì˜ˆì•½ í”„ë¡œê·¸ë¨ì´ 8ë²ˆì—ì„œ ì‹œì‘ë©ë‹ˆë‹¤.");
 			}
 		
 		else
-			System.out.println("TVÀÇ Àü¿øÀº ²¨Áø »óÅÂÀÔ´Ï´Ù.");
+			System.out.println("TVì˜ ì „ì›ì€ êº¼ì§„ ìƒíƒœì…ë‹ˆë‹¤.");
 		
 	}
 

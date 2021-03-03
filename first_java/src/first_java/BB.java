@@ -2,12 +2,12 @@ package first_java;
 
 class AA_2
 {
-	public int x = 10;  //  °ª ÃÊ±âÈ­¸¦ ½ÃÄÑÁÖÁö ¾ÊÀ¸¸é default °ªÀ¸·Î ÃÊ±âÈ­°¡ µÈ´Ù.
+	public int x = 10;  //  ê°’ ì´ˆê¸°í™”ë¥¼ ì‹œì¼œì£¼ì§€ ì•Šìœ¼ë©´ default ê°’ìœ¼ë¡œ ì´ˆê¸°í™”ê°€ ëœë‹¤.
 	public int y = 33;
 	
-	public int add()  //  return ½ÃÄÑ¶ó
+	public int add()  //  return ì‹œì¼œë¼
 	{
-		return (x + y);  //  return ÇÏ¸é È£ÃâÇÑ °÷À¸·Î °£´Ù. È£ÃâÇÑ °÷ÀÌ ¾îµğ³Ä¸é 
+		return (x + y);  //  return í•˜ë©´ í˜¸ì¶œí•œ ê³³ìœ¼ë¡œ ê°„ë‹¤. í˜¸ì¶œí•œ ê³³ì´ ì–´ë””ëƒë©´ 
 	}
 }
 
@@ -17,7 +17,7 @@ public class BB {
 		
 		AA_2 aa = new AA_2();
 		
-		System.out.println("   x	= " + aa.x );  //  °´Ã¼¸¦ ¸¸µç ´ÙÀ½¿¡ ±× °´Ã¼¿¡ Á¢±ÙÇÏ·Á¸é .Âï°í ÇØ´çÇÏ´Â °ÍÀ» ³Ö¾îÁÜ.
+		System.out.println("   x	= " + aa.x );  //  ê°ì²´ë¥¼ ë§Œë“  ë‹¤ìŒì— ê·¸ ê°ì²´ì— ì ‘ê·¼í•˜ë ¤ë©´ .ì°ê³  í•´ë‹¹í•˜ëŠ” ê²ƒì„ ë„£ì–´ì¤Œ.
 		System.out.println("   y	= " + aa.y);
 		System.out.println(" Sum	= " + aa.add());
 		
